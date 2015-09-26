@@ -1,0 +1,62 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+ 
+div {
+	border-radius: 5px;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	margin-top: -20px;
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+#title {
+	float:left;
+	margin-left: 100px;
+	padding-top: 5px;
+	font-size: 75px;
+	font-family: Georgia;
+	color: #ff0000;
+}
+
+#signinbackground{
+    float:right;
+    border-radius:25px;
+    height:30px;
+    width:120px;
+    background-color:red;
+    margin-right:75px;
+    font-size: 29px;
+    margin-top: 120px;
+	font-family: Georgia;
+	color: white;
+    text-align:center;
+    text-decoration: overline;
+}
+#footer {
+	position: relative;
+	height: px;
+	background-color: red;
+	clear: both;
+	font-family: Georgia;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer p {
+	position: bottom;
+	padding-top:200;
+}
+#backgroundImage {
+    position: relative;
+    height:1980px;
+    width:1024px;
+}
